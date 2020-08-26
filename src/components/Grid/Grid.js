@@ -15,9 +15,9 @@ export default function Grid() {
      // API query
       useEffect (() => {
           axios
-              .get(`${API_URL}---api_key=${API_KEY}`)
+              .get(`${API_URL}api_key=${API_KEY}`)
               .then(response => {
-                  console.log(response.data)
+                  console.log(response.data.title)
                   setNasaData(response.data)
               })
               .catch(error => {
@@ -31,11 +31,15 @@ export default function Grid() {
             //use returned data here--
             key={nasaData.id}
             // nasaData.url
-            url={nasaData.url}
+            url={nasaData.hdurl}
             //nasaData.title
+            title={nasaData.title}
+            //nasaData.date
             date={nasaData.date}
             //nasaData.text
             explanation={nasaData.explanation}
+            //nasaData.copyright
+            copyright={nasaData.copyright}
         />
             
         </div>
