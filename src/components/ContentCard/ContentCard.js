@@ -1,5 +1,7 @@
 import React from 'react';
 
+import DateSelector from '../DatePicker/DateSelector';
+
 const ContentCard = (props) => {
 	return (
 		<div className="main-nasa-wrapper">
@@ -32,6 +34,9 @@ const ContentCard = (props) => {
 				{/* props explanation text */}
 				<p className="explanation-text">{props.explanation}</p>
 			</div>
+
+					<DateSelector />
+			
 		</div>
 	);
 };

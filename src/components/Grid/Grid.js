@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import ContentCard from '../ContentCard/ContentCard';
+import DateSelector from '../DatePicker/DateSelector';
 
 import axios from 'axios';
 const moment = require('moment');
@@ -46,6 +47,13 @@ export default function Grid () {
 				//nasaData.copyright
 				copyright={nasaData.copyright}
 			/>
+
+			{/* Date Selection*/}
+			<DateSelector />
+			
+			
+			
+
 		</div>
 	);
 }
