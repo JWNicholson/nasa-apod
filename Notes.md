@@ -31,5 +31,7 @@ Layout -
     Content - image and blurb
    Footer
 
-
+++++++++++++++++++++
+Options 
+    date picker giving ability to check photo archives
 

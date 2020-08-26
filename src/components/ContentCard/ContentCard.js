@@ -11,6 +11,7 @@ const ContentCard = (props) => {
 				<div className="image-date">
 					{/* props date */}
 					<h4>Date: {props.date}</h4>
+					<p>&copy; {props.copyright}</p>
 				</div>
                 </div> {/** end nasa-img-ctnr */}
                 <div className="explanation-text-ctnr">
