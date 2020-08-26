@@ -1,3 +1,8 @@
++++++++ 
+This project will use react and axios to get the NASA's daily pic and info (JSON), and display
+it in a web page
++++++++
+
 Components
     Project Header
     NasaPage -comp
